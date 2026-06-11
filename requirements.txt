@@ -1,0 +1,14 @@
+Flask
+Flask-SQLAlchemy
+Jupyter
+matplotlib
+numpy
+opencv-python
+pandas
+Pillow
+psycopg2-binary
+pygame
+PyAudio
+requests
+SpeechRecognition
+
