@@ -26,11 +26,13 @@ This repository combines the following original repositories:
 - `ITMO_PYTLAB`
 
 The separate `Python-2023` repository duplicated the Lab 08 assignment and is
-therefore represented by the more complete Lab 08 copy above.
+represented by [`Lab08/program-vietnamese-comments.ipynb`](Lab08/program-vietnamese-comments.ipynb),
+while the version from `ITMO-PYTHON-2023` remains `Lab08/program.ipynb`.
 
-Large committed virtual environments from the original repositories were not
-included. Create a fresh environment and install only the packages needed for
-the lab you want to run.
+The `LabXX` directories contain the course code, notebooks, data, images, and
+lab documentation. Editor settings, virtual environments, dependency caches,
+and nested Git metadata are intentionally excluded. Create a fresh environment
+when running the labs.
 
 ## Setup
 
@@ -46,4 +48,3 @@ Some labs require additional system services or hardware:
 - Lab 09 web app requires PostgreSQL and environment variables described in
   [`Lab09/web-app/README.md`](Lab09/web-app/README.md).
 - Lab 10 requires a microphone and may require a system PortAudio package.
-
